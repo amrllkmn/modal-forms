@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Button from "react-bootstrap/Button";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ModalComponent from "./components/ModalComponent";
+
+import useModal from "./helpers/useModal";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const { isShowing, toggle } = useModal();
+    return (
+        <>
+            <div className="App">
+                <header className="App-header">
+                    <p>Involve Asia Coding Test</p>
+                    <Button variant="primary" onClick={toggle}>
+                        Open Modal Form
+                    </Button>
+                </header>
+            </div>
+            <ModalComponent
+                isShowing={isShowing}
+                handleClose={toggle}
+            ></ModalComponent>
+        </>
+    );
 }
 
 export default App;
