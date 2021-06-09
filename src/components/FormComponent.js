@@ -3,8 +3,10 @@ import Col from "react-bootstrap/Col";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import FieldComponent from "./FieldComponent";
+import useRule from "../helpers/useRule";
 
 function FormComponent() {
+    const { rules, handleAddFields, handleRemoveFields } = useRule();
     return (
         <Form>
             <Form.Row>
@@ -36,7 +38,14 @@ function FormComponent() {
                 </Col>
                 of the below conditions are met
             </Form.Row>
-            <FieldComponent />
+            {rules.map((rule, index) => (
+                <FieldComponent
+                    key={`rule-${index}`}
+                    id={index}
+                    onAddField={handleAddFields}
+                    onRemoveField={handleRemoveFields}
+                />
+            ))}
             <Form.Row className="align-items-center">
                 then revenue is
                 <Col xs={3} className="my-2">
