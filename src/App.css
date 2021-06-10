@@ -26,3 +26,11 @@
     opacity: 0.5 !important;
     background-color: black !important;
 }
+
+.modal-dialog {
+    max-width: 150vh !important;
+}
+
+.remove-rule {
+    color: red !important;
+}

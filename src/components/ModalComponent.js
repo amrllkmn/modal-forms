@@ -6,7 +6,6 @@ const ModalComponent = ({ isShowing, handleClose }) => {
         <Modal
             show={isShowing}
             onHide={handleClose}
-            dialogClassName="modal-90w"
             aria-labelledby="modal-form"
         >
             <Modal.Header closeButton>
