@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/modal-forms/static/css/main.b77c679d.chunk.css",
+    "main.js": "/modal-forms/static/js/main.3b8852a6.chunk.js",
+    "main.js.map": "/modal-forms/static/js/main.3b8852a6.chunk.js.map",
+    "runtime-main.js": "/modal-forms/static/js/runtime-main.05938ded.js",
+    "runtime-main.js.map": "/modal-forms/static/js/runtime-main.05938ded.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/modal-forms/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fffefba7.chunk.js": "/modal-forms/static/js/2.fffefba7.chunk.js",
+    "static/js/2.fffefba7.chunk.js.map": "/modal-forms/static/js/2.fffefba7.chunk.js.map",
+    "static/js/3.1b6a6625.chunk.js": "/modal-forms/static/js/3.1b6a6625.chunk.js",
+    "static/js/3.1b6a6625.chunk.js.map": "/modal-forms/static/js/3.1b6a6625.chunk.js.map",
+    "index.html": "/modal-forms/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/modal-forms/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.b77c679d.chunk.css.map": "/modal-forms/static/css/main.b77c679d.chunk.css.map",
+    "static/js/2.fffefba7.chunk.js.LICENSE.txt": "/modal-forms/static/js/2.fffefba7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.05938ded.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.fffefba7.chunk.js",
+    "static/css/main.b77c679d.chunk.css",
+    "static/js/main.3b8852a6.chunk.js"
+  ]
+}
