@@ -28,9 +28,7 @@ const useRule = () => {
     };
 
     const handleAddRule = (index) => {
-        console.log(index);
         const val = [...form.rules[index].field3];
-        console.log(val);
         if (val) {
             val.push({ input: "" });
 
@@ -43,7 +41,6 @@ const useRule = () => {
     const handleRemoveRule = (id, index) => {
         const val = [...form.rules[id].field3];
         val.splice(index, 1);
-        console.log(val);
         const new_form = { ...form };
         new_form.rules[id].field3 = val;
         setForm(new_form);
